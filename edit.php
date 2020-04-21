@@ -37,8 +37,10 @@ require("topSite.html");
 </tr>
 <tr>
     <td><input type="hidden" name="idProd" value="<?php echo $id; ?>"></td>
-    <td><input type="submit" value="Editar"></td>
+    <td><input type="submit" name="editarSubmit" value="Editar"></td>
 </tr>
+
+
 </table>
 </form>
 </center>
