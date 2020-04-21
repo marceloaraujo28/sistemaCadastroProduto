@@ -32,7 +32,7 @@ require("topSite.html");
     <td><input type="textarea" name="descrProd" value="<?php echo $descrProd; ?>"></td>
 </tr>
 <tr>
-    <td>valorProd: </td>
+    <td>Valor do Produto: </td>
     <td><input type="number" name="valorProd" value="<?php echo $valorProd; ?>"></td>
 </tr>
 <tr>
