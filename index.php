@@ -9,12 +9,7 @@ require("classes/Produtos.class.php");
 $produto = new Produtos();
 $query = "SELECT * FROM produtos ORDER BY id";
 $result = $produto->getData($query);
-foreach($result as $res){
-    $id = $res['id'];
-    $nomeProd = $res['nomeProd'];
-    $descrProd = $res['descrProd'];
-    $valorProd = $res['valorProd'];
-}
+
 ?>
 <?php
 require("topSite.html");
@@ -31,7 +26,12 @@ require("topSite.html");
             </tr>
         </thead>
         <?php
-            if(isset($id)){
+            foreach($result as $res){
+                $id = $res['id'];
+                $nomeProd = $res['nomeProd'];
+                $descrProd = $res['descrProd'];
+                $valorProd = $res['valorProd'];
+            
         ?>
             <tr>
                 <td><?php echo $id; ?></td>
