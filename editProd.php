@@ -7,7 +7,7 @@
 require("classes/Produtos.class.php");
 
 $mostrar = new Produtos();
-$query = "SELECT * FROM produtos";
+$query = "SELECT * FROM produtos order by id desc";
 $result = $mostrar->getData($query);
 
 
