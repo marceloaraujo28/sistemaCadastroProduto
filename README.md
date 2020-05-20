@@ -1,4 +1,4 @@
-# Sistema de cadastro de Produtos (EM ANDAMENTO)
+# Sistema de cadastro de Produtos 
 - Sisteminha de Cadastro de Produtos<br>
 - Com Sistema de Login Adicionado<br>
 - Bem funcional até o momento
